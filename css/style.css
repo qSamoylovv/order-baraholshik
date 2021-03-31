@@ -90,20 +90,21 @@ body {
 }
 
 .header-title {
-    font-size: 24px;
+    font-size: 22px;
     width: 75%;
-    line-height: 35px;
+    line-height: 28px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
     font-weight: 400;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .header p {
     color: #fff;
     text-align: center;
-    margin-top: 30%;
+    font-size: 16px;
+    margin-top: 15%;
     margin-bottom: 10px;
 }
 
@@ -533,6 +534,12 @@ body {
     list-style-type: none;
 }
 
+.social-item {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
 .social-link {
     display: block;
     width: 20px;
@@ -618,12 +625,6 @@ body {
     }
 }
 
-/* @media (min-width: 320px) and (orientation: landscape) {
-    .header-title {
-        font-size: 24px;
-        line-height: 22px;
-    }
-} */
 /* Малые девайсы («ландшафтные телефоны», >= 576px) */
 @media (min-width: 576px) {
     .wrapper {
